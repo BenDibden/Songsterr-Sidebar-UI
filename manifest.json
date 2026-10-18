@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Songsterr Sidebar UI",
+  "version": "1.0",
+  "description": "Smart Hide & Full Hitboxes layout fixer for Songsterr.",
+  "content_scripts": [
+    {
+      "matches": ["*://*.songsterr.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
